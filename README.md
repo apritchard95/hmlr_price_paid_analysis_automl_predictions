@@ -46,8 +46,6 @@ pip install -r requirements.txt
 jupyter notebook hmlr_property_price_analysis.ipynb
 ```
 
-**Note for Windows users:** PyCaret's parallel processing can cause kernel hangs in Jupyter on Windows. The setup cell includes `n_jobs=1` to prevent this.
-
 The data download cells will fetch ~200MB of CSV data on first run. Subsequent runs will skip the download if the files are already present.
 
 ## Technical Stack
